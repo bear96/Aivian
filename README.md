@@ -26,3 +26,5 @@ On the kaggle dataset, we acheived an accuracy of approximately 98%.
 The ViT model uses cosine annealing scheduler and trains for 10000 steps with AdamW optimizer. The time for training is almost 1 hour on a single GPU on the kaggle dataset and 4 hours on nabirds dataset.
 
 It must be noted that to acheive 89% accuracy on nabirds dataset, the images need to be cropped according to the bounding boxes provided in the dataset and resized to a square while making sure that the image aspect ratio stays the same. 
+
+Then to make sure that each class has at least 150 images, the images are augmented using augment.py. 
