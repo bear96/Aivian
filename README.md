@@ -36,5 +36,5 @@ The accuracies for various models are given below:
 
 The training loss for nabirds dataset is given below:
 
-<img src="loss.png" alt="Loss Plot" width="500"/>
+<img src="loss.png" alt="Loss Plot" width="400"/>
 
