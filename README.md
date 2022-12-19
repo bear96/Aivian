@@ -32,3 +32,4 @@ Then to make sure that each class has at least 150 images, the images are augmen
 The accuracies for various models are given below:
 
 
+![Accuracy Table](https://github.com/bear96/Aivian/blob/main/table.png?raw=true)
