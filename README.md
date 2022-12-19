@@ -24,3 +24,5 @@ You can download nabirds dataset from the URL or optionally use Deeplake dataloa
 The best performing model on either dataset is the Vision Transformer (ViT) by google from the paper "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale". We acheived an 89% accuracy on nabirds, just 1.8% less than the baseline architecture TransFG which has an accuracy of 90.8%. 
 On the kaggle dataset, we acheived an accuracy of approximately 98%. 
 The ViT model uses cosine annealing scheduler and trains for 10000 steps with AdamW optimizer. The time for training is almost 1 hour on a single GPU on the kaggle dataset and 4 hours on nabirds dataset.
+
+It must be noted that to acheive 89% accuracy on nabirds dataset, the images need to be cropped according to the bounding boxes provided in the dataset and resized to a square while making sure that the image aspect ratio stays the same. 
